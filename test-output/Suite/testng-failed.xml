@@ -6,7 +6,7 @@
       <class name="org.ttn.SeleniumMaven.DemoText">
         <methods>
           <include name="launch"/>
-          <include name="demo2"/>
+          <include name="demo1"/>
           <include name="closebrowser"/>
         </methods>
       </class> <!-- org.ttn.SeleniumMaven.DemoText -->

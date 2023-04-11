@@ -44,24 +44,7 @@
    			<artifactId>selenium-java</artifactId>
     		<version>3.141.59</version>
 		</dependency>
-		<dependency>
-			<groupId>org.apache.axis2</groupId>
-			<artifactId>axis2-adb</artifactId>
-			<version>${axis2.version}</version>
-			<scope>provided</scope>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.axis2</groupId>
-			<artifactId>axis2-transport-http</artifactId>
-			<version>${axis2.version}</version>
-			<scope>provided</scope>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.axis2</groupId>
-			<artifactId>axis2-transport-local</artifactId>
-			<version>${axis2.version}</version>
-			<scope>provided</scope>
-		</dependency>
+		
 	</dependencies>
 	<build>
 	<pluginManagement>
@@ -84,7 +67,7 @@
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-surefire-plugin</artifactId>
-                    <version>3.0.0</version>
+                    <version>3.0.0-M5</version>
                     <configuration>
                         <suiteXmlFiles>testng.xml</suiteXmlFiles>
                     </configuration>
